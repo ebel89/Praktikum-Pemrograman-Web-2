@@ -59,6 +59,7 @@
     <?php
     // Membuat kondisi dimana hasil inputan akan ditampilkan jika semua inputan terisi
     if (isset($_GET['submit']) && isset($_GET['jk']) != "" && $_GET['nama'] && $_GET['nim'] != "") {
+        echo "<b>Output</b><br>";
         echo $_GET["nama"] . "<br>";
         echo $_GET['nim'] . "<br>";
         echo $_GET["jk"];
