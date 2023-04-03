@@ -12,7 +12,7 @@
     <form action="" method="get">
         <label for="nilai">Nilai : </label>
         <input type="text" name="nilai" id="nilai">
-
+        <br>
         <button type="submit" name="submit">Konversi</button>
     </form>
     <?php
